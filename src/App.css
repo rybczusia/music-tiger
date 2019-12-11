@@ -1,0 +1,175 @@
+body {
+  background-color: #423D38;
+  box-sizing: border-box;
+}
+
+.App {
+  text-align: center;
+  background-image: url("./img/cat-footprint.png");
+  background-repeat: repeat;
+  background-size: 20vh;
+  height: 100vh;
+
+}
+.App-wrapper {
+  background-color: #423D38;
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  height: 100vh;
+}
+button:hover {
+  cursor: pointer;
+}
+.App-header {
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #D6821C;
+}
+.App-header h1 {
+  font-size: calc(30px + 2vmin);
+  color: #fff;
+  font-family: 'Shojumaru', cursive;
+}
+.App-header .App-tittle {
+  font-size: calc(15px + 2vmin);
+  font-weight: 100;
+}
+
+.App-description {
+  font-size: calc(10px + 2vmin);
+  color: mintcream;
+  justify-content: center;
+}
+.App-logo {
+  width: 250px;
+  height: 250px;
+}
+.App-logo-category {
+  width: 12vw;
+}
+
+.App-button {
+  margin-top: 5px;
+  width: 300px;
+  height: 70px;
+  line-height: 70px;
+  text-align: center;
+  background: #D6821C;
+  color: #fff;
+  border: #D6821C solid 1px;
+  border-radius: 50px;
+  font-size: 28px;
+}
+
+.App-header .Button-row {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10px;
+}
+
+.Button-row:hover {
+  background-color: #fff;
+  color:#D6821C;
+  transition: 0.5s;
+}
+
+.App-header .App-time {
+  font-size: 48px;
+  color: #fff;
+}
+.App-button-start {
+  margin: 20vh auto;
+  min-width: 200px;
+  height: 100px;
+  background: #D6821C;
+  color: #fff;
+  font-size: 35px;
+  font-family: 'Shojumaru', cursive;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+.App-button-start:hover {
+  border: #000 solid 6px;
+  background: red;
+  line-height: 88px;
+}
+
+.App-button-answers {
+  margin: 2vh 2vh;
+  width: 400px;
+  height: 80px;
+  line-height: 80px;
+  text-align: center;
+  background: #D6821C;
+  color: #fff;
+  border: #D6821C solid 1px;
+  border-radius: 50px;
+  font-size: 25px;
+  overflow: hidden;
+}
+
+.App-button-answers:hover {
+  background: #fff;
+  color:#D6821C;
+}
+.App-result {
+  background: #D6821C;
+  color: #ffffff;
+  width: 100vw;
+  height: 100vh;
+  font-size: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-wrap: wrap;
+  font-family: 'Lakki Reddy', cursive;
+}
+
+.App-result .App-logo {
+  margin: 40px;
+}
+
+.App-result-btn {
+  margin-top: 20vh;
+  margin-bottom: 10vh;
+  padding: 10px 30px 10px 30px;
+  min-width: 400px;
+  height: 80px;
+  justify-content: center;
+  text-align: center;
+  background: #000000;
+  color: #fff;
+  border: #ffffff solid 3px;
+  border-radius: 50px;
+  font-size: 35px;
+}
+
+.App-result-btn:hover {
+  background: #D6821C;
+  transition: 1s;
+}
+
+@media (min-width:900px ) {
+  .App-result {
+    flex-direction: column;
+  }
+  .App-result-btn {
+    margin-top: 10vh;
+    margin-bottom: 5vh;
+  }
+}
+
+@media (min-width:1120px ) {
+  .App-header {
+   max-width: 1000px;
+    margin: 0 auto;
+  }
+}
+
+
