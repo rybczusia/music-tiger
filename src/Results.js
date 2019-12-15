@@ -69,7 +69,7 @@ const Results = () => {
         <>
             <div className='App-result'>
                     <img src={logo} className="App-logo" alt="logo"/>
-                    <div>{feedback}</div>
+                    <div className='App-feedback'>{feedback}</div>
                     <button onClick={handleClick} className='App-result-btn'>Spróbuj jeszcze raz</button>
             </div>
 

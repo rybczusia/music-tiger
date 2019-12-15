@@ -170,7 +170,7 @@ class Game extends React.Component {
                                 this.state.answers.map((el, index) =>
                                     (
                                         <button key={index} disabled={!active} onClick={this.handleAnswer}
-                                                className='App-button-answers Button-row'>{el}</button>
+                                                className='App-button-answers hasHover Button-row'>{el}</button>
                                     )
                                 )
                             }
