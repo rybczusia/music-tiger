@@ -6,8 +6,8 @@ const Home = () => {
 
     const handleClick = ((e) => {
         if (e.currentTarget.innerText === 'Gram') {
-            // window.location = "http://spotifyauth-env.f7ecrif2b6.eu-central-1.elasticbeanstalk.com";
-            window.location = "http://localhost:8888";
+            window.location = "http://spotifyauth-env.f7ecrif2b6.eu-central-1.elasticbeanstalk.com";
+            // window.location = "http://localhost:8888";
         } else {
             window.location = "/spotify";
         }

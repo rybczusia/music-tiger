@@ -9,14 +9,6 @@ import Results from "./Results";
 import Start from "./Start";
 import Home from "./Home";
 import Spotify from "./Spotify";
-// import { createBrowserHistory } from 'history';
-//
-// const history = createBrowserHistory();
-//
-// const path = (/#!(\/.*)$/.exec(window.location.hash) || [])[1];
-// if (path) {
-//     history.replace(path);
-// }
 
 class App extends React.Component {
 
